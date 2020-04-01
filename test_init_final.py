@@ -1510,7 +1510,7 @@ while True:
 					command_list += ','.join(command[10]) + ' [인원] [금액]\n'     #!분배
 					command_list += ','.join(command[11]) + ' [뽑을인원수] [아이디1] [아이디2]...\n'     #!사다리
 					command_list += ','.join(command[12]) + ' [아이디]\n'     #!정산
-					command_list += ','.join(command[13]) + ' 또는 ' + ','.join(command[14]) + ' 0000, 00:00\n'     #!보스일괄
+					command_list += ','.join(command[13]) + ' 또는 ' + ','.join(command[13]) + ' 0000, 00:00\n'     #!보스일괄
 					command_list += ','.join(command[14]) + '\n'     #!q
 					command_list += ','.join(command[15]) + ' [할말]\n'     #!v
 					command_list += ','.join(command[16]) + '\n'     #!리젠
